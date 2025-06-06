@@ -3,6 +3,8 @@
 #include "Database/DatabaseSyncManager.h"
 #include "Core/ChordTypes.h"
 #include "Core/ChordParser.h"
+#include "Core/MetadataService.h"
+#include "Core/MetadataServiceTest.h"
 #include "Utils/FilenameUtils.h"
 #include "Shared/SharedConfig.h"
 #include <sqlite3.h>
@@ -82,7 +84,7 @@ private:
             #if JUCE_MAC
                 juce::MenuBarModel::setMacMainMenu(nullptr);
             #endif
-            centreWithSize(900, 700);
+            centreWithSize(1000, 700);  // Made wider to fit new button
             setVisible(true);
             if (databaseManager) {
                 databaseManager->addListener(this);
@@ -106,10 +108,10 @@ private:
 
         juce::Component* createMainComponent() {
             auto* mainComp = new juce::Component(); 
-            mainComp->setSize(900, 700);
+            mainComp->setSize(1000, 700);  // Made wider
             
             toolbar = std::make_unique<juce::Component>(); 
-            toolbar->setBounds(0, 0, 900, 60);
+            toolbar->setBounds(0, 0, 1000, 60);  // Made wider
             scanButton = std::make_unique<juce::TextButton>("Scan Library"); 
             scanButton->addListener(this); 
             scanButton->setBounds(20, 15, 150, 30); 
@@ -122,14 +124,21 @@ private:
             organizeButton->addListener(this); 
             organizeButton->setBounds(340, 15, 150, 30); 
             toolbar->addAndMakeVisible(organizeButton.get());
+            
+            // NEW: Add metadata test button
+            testMetadataButton = std::make_unique<juce::TextButton>("Test Metadata");
+            testMetadataButton->addListener(this);
+            testMetadataButton->setBounds(500, 15, 150, 30);
+            toolbar->addAndMakeVisible(testMetadataButton.get());
+            
             settingsButton = std::make_unique<juce::TextButton>("Settings"); 
             settingsButton->addListener(this); 
-            settingsButton->setBounds(800, 15, 80, 30); 
+            settingsButton->setBounds(880, 15, 80, 30);  // Moved right
             toolbar->addAndMakeVisible(settingsButton.get());
             mainComp->addAndMakeVisible(toolbar.get());
             
             tabbedComponent = std::make_unique<juce::TabbedComponent>(juce::TabbedButtonBar::TabsAtTop); 
-            tabbedComponent->setBounds(10, 70, 880, 560);
+            tabbedComponent->setBounds(10, 70, 980, 560);  // Made wider
             overviewTab.reset(createOverviewTab()); 
             tabbedComponent->addTab("Overview", juce::Colours::lightgrey, overviewTab.get(), false);
             libraryTab.reset(createLibraryTab()); 
@@ -141,7 +150,7 @@ private:
             mainComp->addAndMakeVisible(tabbedComponent.get());
             
             statusLabel = std::make_unique<juce::Label>("status", "Ready"); 
-            statusLabel->setBounds(10, 640, 880, 30); 
+            statusLabel->setBounds(10, 640, 980, 30);  // Made wider
             statusLabel->setJustificationType(juce::Justification::centredLeft); 
             mainComp->addAndMakeVisible(statusLabel.get());
             
@@ -178,7 +187,7 @@ private:
             searchBox->onTextChange = [this] { filterLibraryView(); }; 
             tab->addAndMakeVisible(searchBox.get());
             libraryTable = std::make_unique<juce::TableListBox>("library", this); 
-            libraryTable->setBounds(20, 60, 840, 440);
+            libraryTable->setBounds(20, 60, 940, 440);  // Made wider
             libraryTable->getHeader().addColumn("Chord", 1, 100); 
             libraryTable->getHeader().addColumn("Filename", 2, 300); 
             libraryTable->getHeader().addColumn("Tags", 3, 150); 
@@ -192,10 +201,10 @@ private:
         juce::Component* createUploadTab() {
             auto* tab = new juce::Component(); 
             dropZone = std::make_unique<DropZoneComponent>(); 
-            dropZone->setBounds(20, 20, 840, 200); 
+            dropZone->setBounds(20, 20, 940, 200);  // Made wider
             tab->addAndMakeVisible(dropZone.get());
             uploadQueueList = std::make_unique<juce::ListBox>("upload queue", nullptr); 
-            uploadQueueList->setBounds(20, 240, 840, 260); 
+            uploadQueueList->setBounds(20, 240, 940, 260);  // Made wider
             tab->addAndMakeVisible(uploadQueueList.get()); 
             return tab;
         }
@@ -206,7 +215,7 @@ private:
             logView->setMultiLine(true); 
             logView->setReadOnly(true); 
             logView->setFont(juce::FontOptions(juce::Font::getDefaultMonospacedFontName(), 12.0f, juce::Font::plain)); 
-            logView->setBounds(20, 20, 840, 480); 
+            logView->setBounds(20, 20, 940, 480);  // Made wider
             tab->addAndMakeVisible(logView.get()); 
             return tab;
         }
@@ -218,6 +227,8 @@ private:
                 processUploadFolder(); 
             else if(b==organizeButton.get())
                 organizeFiles(); 
+            else if(b==testMetadataButton.get())
+                testMetadataService();  // NEW: Handle metadata test button
             else if(b==settingsButton.get())
                 showSettings(); 
         }
@@ -324,6 +335,7 @@ private:
         
         std::unique_ptr<juce::Component> toolbar; 
         std::unique_ptr<juce::TextButton> scanButton, processButton, organizeButton, settingsButton;
+        std::unique_ptr<juce::TextButton> testMetadataButton;  // NEW: Metadata test button
         std::unique_ptr<juce::TabbedComponent> tabbedComponent; 
         std::unique_ptr<juce::Component> overviewTab, libraryTab, uploadTab, logTab;
         std::unique_ptr<juce::TextEditor> statsDisplay; 
@@ -344,6 +356,42 @@ private:
             if(databaseManager) 
                 databaseManager->notifyListenersDatabaseUpdated(); 
             updateStatistics();
+        }
+        
+        // NEW: Metadata service test method
+        void testMetadataService()
+        {
+            addLogMessage("=== TESTING METADATA SERVICE ===");
+            statusLabel->setText("Running metadata tests...", juce::dontSendNotification);
+            
+            // Create test directory in the library
+            juce::File testDir = ChopsConfig::getDefaultLibraryDirectory().getChildFile("metadata_tests");
+            
+            if (!testDir.isDirectory() && !testDir.createDirectory())
+            {
+                addLogMessage("❌ ERROR: Could not create test directory");
+                statusLabel->setText("Test failed - no directory", juce::dontSendNotification);
+                return;
+            }
+            
+            // Run the tests
+            MetadataServiceTest tester;
+            bool allPassed = tester.runAllTests(testDir);
+            
+            if (allPassed)
+            {
+                addLogMessage("✅ ALL METADATA TESTS PASSED!");
+                statusLabel->setText("Metadata tests: ALL PASSED", juce::dontSendNotification);
+            }
+            else
+            {
+                addLogMessage("❌ SOME METADATA TESTS FAILED!");
+                statusLabel->setText("Metadata tests: SOME FAILED", juce::dontSendNotification);
+            }
+            
+            addLogMessage("=== METADATA TESTS COMPLETE ===");
+            addLogMessage("Check the log above for detailed results.");
+            addLogMessage("Test files created in: " + testDir.getFullPathName());
         }
         
         void processUploadFolder() 
