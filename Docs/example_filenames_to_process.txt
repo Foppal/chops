@@ -1,0 +1,720 @@
+11sus4_ A11sus4 - root 2.wav
+11sus4_ A11sus4 - root.wav
+13sus4_ A13sus4 - root.wav
+5 add6_ F5 add6 - root 2.wav
+5 add6_ F5 add6 - root.wav
+5 add9_ F5 add9 - root.wav
+5_ AE.wav
+5_ D5 - root.wav
+6b5_ G#6b5 - root.wav
+7b5#9sus_ Eb7b5#9sus - root.wav
+7b5(b9)sus_ A7b5(b9)sus - root.wav
+7sus2_ A#7sus2 - root.wav
+7sus2_ E7sus4 - root.wav
+7sus4_ A7sus4 - root.wav
+7sus4_ F#7sus4 - root.wav
+7sus_ C7sus - root.wav
+9b5sus2_ A9b5sus2 - root.wav
+9sus2_ A9sus2 - root 2.wav
+9sus2_ A9sus4 - root.wav
+9sus2_ B9sus4 - root.wav
+9sus2_ D9sus2 - root.wav
+9sus2_ Eb9sus2 - root.wav
+9sus4_  Eb9sus4 - root 3.wav
+9sus4_ A9sus4 - root 2.wav
+9sus4_ A9sus4 - root 3.wav
+9sus4_ A9sus4 - root 4.wav
+9sus4_ A9sus4 - root 5.wav
+9sus4_ A9sus4 - root 7.wav
+9sus4_ A9sus4 - root.wav
+9sus4_ B9sus4 - root 2.wav
+9sus4_ B9sus4 - root 3.wav
+9sus4_ B9sus4 - root.wav
+9sus4_ Bb9sus4 - root 2.wav
+9sus4_ Bb9sus4 - root 3.wav
+9sus4_ Bb9sus4 - root 4.wav
+9sus4_ Bb9sus4 - root.wav
+9sus4_ C#9sus4 - root 2.wav
+9sus4_ C#9sus4 - root 3.wav
+9sus4_ C#9sus4 - root 4.wav
+9sus4_ C#9sus4 - root 5.wav
+9sus4_ C#9sus4 - root 6.wav
+9sus4_ C#9sus4 - root.wav
+9sus4_ C9sus4 - root 2.wav
+9sus4_ C9sus4 - root 3.wav
+9sus4_ C9sus4 - root 4.wav
+9sus4_ C9sus4 - root.wav
+9sus4_ D9sus4 - root 10.wav
+9sus4_ D9sus4 - root 11.wav
+9sus4_ D9sus4 - root 12.wav
+9sus4_ D9sus4 - root 13.wav
+9sus4_ D9sus4 - root 14.wav
+9sus4_ D9sus4 - root 15.wav
+9sus4_ D9sus4 - root 2.wav
+9sus4_ D9sus4 - root 3.wav
+9sus4_ D9sus4 - root 4.wav
+9sus4_ D9sus4 - root 5.wav
+9sus4_ D9sus4 - root 6.wav
+9sus4_ D9sus4 - root 7.wav
+9sus4_ D9sus4 - root 8 .wav
+9sus4_ D9sus4 - root 8.wav
+9sus4_ D9sus4 - root 9.wav
+9sus4_ D9sus4 - root.wav
+9sus4_ E9sus4 - root 2.wav
+9sus4_ E9sus4 - root 3.wav
+9sus4_ E9sus4 - root 4.wav
+9sus4_ E9sus4 - root 5.wav
+9sus4_ E9sus4 - root 6.wav
+9sus4_ E9sus4 - root.wav
+9sus4_ Eb9sus4 - root 2.wav
+9sus4_ Eb9sus4 - root 4.wav
+9sus4_ Eb9sus4 - root.wav
+9sus4_ F#9sus4 - root.wav
+9sus4_ F9sus4 - root 2.wav
+9sus4_ F9sus4 - root.wav
+9sus4_ G#9sus4 - root 2.wav
+9sus4_ G#9sus4 - root 3.wav
+9sus4_ G#9sus4 - root.wav
+9sus4_ G9sus4 - root 2.wav
+9sus4_ G9sus4 - root 3.wav
+9sus4_ G9sus4 - root 4.wav
+9sus4_ G9sus4 - root 5.wav
+9sus4_ G9sus4 - root 6.wav
+9sus4_ G9sus4 - root 7.wav
+Aug6 (add m2)_ Eaug6(add m2) - root.wav
+Dim 11_ Ebdim 11 - root.wav
+Dim11_ Ddim9_11_G .wav
+Dim7 add(#5)_ Gdim7 add(#5) - root.wav
+Dim_ Bbdim - root 2.wav
+Dim_ Bbdim - root.wav
+Dim_ Bdim - root.wav
+Dim_ C#dim - root 2.wav
+Dim_ C#dim - root.wav
+Dim_ D#dim - root.wav
+Dim_ Ddim - root.wav
+Dim_ Edim - root 2.wav
+Dim_ Edim - root.wav
+Dim_ G#dim - root 2.wav
+Dim_ G#dim - root 3.wav
+Dim_ G#dim - root 4.wav
+Dim_ G#dim - root.wav
+Dim_ Gdim - root.wav
+I-II-V_ A add9 - Bm7 - E7#9.wav
+II-V_ Am9 - D7b9.wav
+II-V_ Dm9 - G9sus2.wav
+II-V_ Em7 - A13.wav
+II-V_ G#m7 - C#7.wav
+Interval_ B D - minor 3rd.wav
+Maj9sus2_ Dmaj9sus2 - root.wav
+Major #5_ A#5 - 2nd inversion.wav
+Major #5_ B#5 - root.wav
+Major 11_ G#11 - root.wav
+Major 11_ G11 - root.wav
+Major 13 add(m2)_ Bb13 add(m2) - root.wav
+Major 13 add(m2)_ E13 add(m2) - root.wav
+Major 13_ A13 - root 2.wav
+Major 13_ A13 - root.wav
+Major 13_ Bb13 - root 2.wav
+Major 13_ Bb13 - root.wav
+Major 13_ C13 - root 2.wav
+Major 13_ C13 - root 3.wav
+Major 13_ C13 - root.wav
+Major 13_ D13 - root 2.wav
+Major 13_ D13 - root.wav
+Major 13_ Dmaj13 - root 2.wav
+Major 13_ E13 - 2nd inversion.wav
+Major 13_ E13 - root 2.wav
+Major 13_ E13 - root.wav
+Major 13_ E13.wav
+Major 13_ Eb13 - root.wav
+Major 13_ F13 - root.wav
+Major 13_ G#13 - root 2.wav
+Major 13_ G#13 - root.wav
+Major 13_ G13 - root.wav
+Major 13b5_ Bb13b5 - 2nd inversion.wav
+Major 13b5_ Bb13b5 - root.wav
+Major 13b5_ Gmaj13b5 - root.wav
+Major 13b5sus(b2)_ E13b5sus(b2) - root.wav
+Major 13b9_ A13b9 - root.wav
+Major 13b9_ C#13b9 - root.wav
+Major 13b9_ G13b9 - root.wav
+Major 6 add(m2)_ F#6 add(m2) - root.wav
+Major 6-9_ B6-9 - root.wav
+Major 6_ A6 - root 2.wav
+Major 6_ A6 - root.wav
+Major 6_ B6 - 1st inversion.wav
+Major 6_ B6 - root.wav
+Major 6_ Bb6 - root 2.wav
+Major 6_ Bb6 - root.wav
+Major 6_ C6 - root 2.wav
+Major 6_ C6 - root 3.wav
+Major 6_ C6 - root 4.wav
+Major 6_ C6 - root.wav
+Major 6_ D6 - 1st inversion.wav
+Major 6_ D6 - 2nd inversion.wav
+Major 6_ D6 - root 2.wav
+Major 6_ D6 - root.wav
+Major 6_ Eb6 - root.wav
+Major 6_ F#6 - root 2.wav
+Major 6_ F#6 - root 3.wav
+Major 6_ F#6 - root.wav
+Major 6_ F6 - root.wav
+Major 6_ G#6 - root 2.wav
+Major 6_ G#6 - root 3.wav
+Major 6_ G#6 - root.wav
+Major 6_ G6 - root.wav
+Major 6b5_ Eb6b5 - root.wav
+Major 6b9_ F#6b9 - root.wav
+Major 7 (b9) add(m3)_ D7(b9)add(m3) - 1st inversion.wav
+Major 7 6_ B7 6 - root.wav
+Major 7 6_ Bb7 6 - root.wav
+Major 7 add#5_ F7add#5 - 3rd inversion.wav
+Major 7#11_ Bb7#11_E - 2nd inversion.wav
+Major 7#5_ A7#5 - root.wav
+Major 7#5_ B7#5.wav
+Major 7#5_ G7#5 - 2nd inversion.wav
+Major 7(b9) add(#5)_ F#7(b9) add(#5) - root.wav
+Major 7(b9)_ E7(b9) - root.wav
+Major 7_ A7 - 3rd inversion.wav
+Major 7_ A7 - root 2.wav
+Major 7_ A7 - root 3.wav
+Major 7_ A7 - root.wav
+Major 7_ B7 - 2nd inversion 2.wav
+Major 7_ B7 - 2nd inversion.wav
+Major 7_ B7 - root 2.wav
+Major 7_ B7 - root.wav
+Major 7_ Bb7 - root 2.wav
+Major 7_ Bb7 - root.wav
+Major 7_ C#7 - root 2.wav
+Major 7_ C#7 - root.wav
+Major 7_ C7 - root.wav
+Major 7_ D7 - 3rd inversion 2.wav
+Major 7_ D7 - 3rd inversion.wav
+Major 7_ D7 - root 2.wav
+Major 7_ D7 - root.wav
+Major 7_ E7 - 1st inversion.wav
+Major 7_ E7 - root.wav
+Major 7_ E7_G# - 1st inversion.wav
+Major 7_ Eb7 - root.wav
+Major 7_ Eb7_Db - 3rd inversion.wav
+Major 7_ F7 - root.wav
+Major 7_ G#7 - 3rd inversion.wav
+Major 7_ G#7 - root.wav
+Major 7_ G7 - root 2.wav
+Major 7_ G7 - root 3.wav
+Major 7_ G7 - root.wav
+Major 7b5_ F7b5 - root.wav
+Major 7b9_ A7b9 - root 2.wav
+Major 7b9_ A7b9 - root.wav
+Major 7b9_ B7b9 - 2nd inversion.wav
+Major 7b9_ B7b9 - root.wav
+Major 7b9_ Bb7b9 - root.wav
+Major 7b9_ C#7b9 - root 2.wav
+Major 7b9_ C#7b9 - root 3.wav
+Major 7b9_ C#7b9 - root.wav
+Major 7b9_ D7b9 - root 2.wav
+Major 7b9_ D7b9 - root 3.wav
+Major 7b9_ D7b9 - root.wav
+Major 7b9_ E7b9 - root 2.wav
+Major 7b9_ E7b9 - root.wav
+Major 7b9_ Eb7b9 - root.wav
+Major 7b9_ G7b9 - 1st inversion.wav
+Major 7b9b5_ F7b9b5 - root.wav
+Major 9#_ A9# - root.wav
+Major 9_ A9 - 1st inversion.wav
+Major 9_ A9 - root 2.wav
+Major 9_ A9 - root.wav
+Major 9_ Bb9 - root 2.wav
+Major 9_ Bb9 - root.mp3
+Major 9_ Bb9 - root.wav
+Major 9_ C#9 - root 2.wav
+Major 9_ C#9 - root.wav
+Major 9_ D9 - 3rd inversion.wav
+Major 9_ D9 - root 2.wav
+Major 9_ D9 - root.wav
+Major 9_ E9 - root 2.wav
+Major 9_ E9 - root 3.wav
+Major 9_ E9 - root.wav
+Major 9_ F9 - root.wav
+Major add9_ B add9 - root 2.wav
+Major add9_ B add9 - root.wav
+Major add9_ Bb add9 - root.wav
+Major add9_ C# add9 - root 2.wav
+Major add9_ C# add9 - root.wav
+Major add9_ D add9 - root.wav
+Major add9_ E add9 - root 2.wav
+Major add9_ E add9 - root 3.wav
+Major add9_ E add9 - root 4.wav
+Major add9_ E add9 - root.wav
+Major add9_ Eb add9 - root 2.wav
+Major add9_ Eb add9 - root.wav
+Major add9_ F add9 - root.wav
+Major add9_ F# add9 - 1st inversion.wav
+Major add9_ G add9 - root 2.wav
+Major add9_ G add9 - root.wav
+Major aug7_ E+7 - root.wav
+Major aug_ Gaug - root.wav
+Major maj13_ Bbmaj13 - root.wav
+Major maj13_ Bmaj13 - root.wav
+Major maj13_ C#maj13 - root.wav
+Major maj13_ Dmaj13 - root.wav
+Major maj13_ Ebmaj13 - root.wav
+Major maj13_ Emaj13 - root 2.wav
+Major maj13_ Emaj13 - root 3.wav
+Major maj13_ Emaj13 - root 4.wav
+Major maj13_ Emaj13 - root.wav
+Major maj13_ F#maj13 - root.wav
+Major maj13_ Fmaj13 - root 2.wav
+Major maj13_ Fmaj13 - root.wav
+Major maj13_ Gmaj13 - root 2.wav
+Major maj13_ Gmaj13 - root 3.wav
+Major maj13_ Gmaj13 - root 4.wav
+Major maj13_ Gmaj13 - root 5.wav
+Major maj13_ Gmaj13 - root.wav
+Major maj7#5_ Cmaj7#5 - root.wav
+Major maj7(#11)_ G#maj7(#11) - root.wav
+Major maj7_ Amaj7 - root.wav
+Major maj7_ Bbmaj7 - 1st inversion.wav
+Major maj7_ Bbmaj7 - 3rd inversion.wav
+Major maj7_ Bbmaj7 - root 2.wav
+Major maj7_ Bbmaj7 - root 3.wav
+Major maj7_ Bbmaj7 - root 4.wav
+Major maj7_ Bbmaj7 - root.wav
+Major maj7_ Bmaj7 - 2nd inversion.wav
+Major maj7_ Bmaj7 - root 2.wav
+Major maj7_ Bmaj7 - root 3.wav
+Major maj7_ Bmaj7 - root.wav
+Major maj7_ C#maj7 - 2nd inversion.wav
+Major maj7_ C#maj7 - root .wav
+Major maj7_ C#maj7 - root.wav
+Major maj7_ Cmaj7 - root 2.wav
+Major maj7_ Cmaj7 - root 3.wav
+Major maj7_ Cmaj7 - root.wav
+Major maj7_ Dmaj7 - 1st inversion.wav
+Major maj7_ Dmaj7 - 2nd inversion.wav
+Major maj7_ Dmaj7 - 3rd inversion.wav
+Major maj7_ Dmaj7 - root 2.wav
+Major maj7_ Dmaj7 - root 3.wav
+Major maj7_ Dmaj7 - root 4.wav
+Major maj7_ Dmaj7 - root 5.wav
+Major maj7_ Dmaj7 - root 6.wav
+Major maj7_ Dmaj7 - root 7.wav
+Major maj7_ Dmaj7 - root.wav
+Major maj7_ Ebmaj7 - 2nd inversion.wav
+Major maj7_ Ebmaj7 - root 4.wav
+Major maj7_ Ebmaj7 - root.wav
+Major maj7_ F#maj7 - root 2.wav
+Major maj7_ F#maj7 - root 3.wav
+Major maj7_ F#maj7 - root 4.wav
+Major maj7_ F#maj7 - root 8.wav
+Major maj7_ F#maj7 - root.wav
+Major maj7_ Fmaj7 - root 2.wav
+Major maj7_ Fmaj7 - root 3.wav
+Major maj7_ Fmaj7 - root 4.wav
+Major maj7_ Fmaj7 - root 5.wav
+Major maj7_ Fmaj7 - root.wav
+Major maj7_ G#maj7 - root 2.wav
+Major maj7_ G#maj7 - root 3.wav
+Major maj7_ G#maj7 - root 4.wav
+Major maj7_ G#maj7 - root 5.wav
+Major maj7_ G#maj7 - root.wav
+Major maj7_ Gmaj7 - 1st inversion 2.wav
+Major maj7_ Gmaj7 - 1st inversion.wav
+Major maj7_ Gmaj7 - root 2.wav
+Major maj7_ Gmaj7 - root 3.wav
+Major maj7_ Gmaj7 - root 4.wav
+Major maj7_ Gmaj7 - root 5.wav
+Major maj7_ Gmaj7 - root 6.wav
+Major maj7_ Gmaj7 - root 9.wav
+Major maj7_ Gmaj7 - root.wav
+Major maj7b5_ Bbmaj7b5 - root.wav
+Major maj7b5_ G#maj7b5 - root.wav
+Major maj9 - Bmaj9_ root.wav
+Major maj9_ Amaj9 - root 5.wav
+Major maj9_ Amaj9 - root 8.wav
+Major maj9_ Amaj9 - root 9.wav
+Major maj9_ Amaj9 - root.wav
+Major maj9_ Bbmaj9 - root 3.wav
+Major maj9_ Bbmaj9 - root.wav
+Major maj9_ Bmaj9 - root.wav
+Major maj9_ C#maj9 - root 2.wav
+Major maj9_ C#maj9 - root.wav
+Major maj9_ Cmaj9 - 2nd inversion.wav
+Major maj9_ Cmaj9 - root 3.wav
+Major maj9_ Cmaj9 - root 4.wav
+Major maj9_ Cmaj9 - root 5.wav
+Major maj9_ Cmaj9 - root 6.wav
+Major maj9_ Dmaj9 - 1st inversion.wav
+Major maj9_ Dmaj9 - 2nd inversion.wav
+Major maj9_ Dmaj9 - root 2.wav
+Major maj9_ Dmaj9 - root 3.wav
+Major maj9_ Dmaj9 - root 4.wav
+Major maj9_ Dmaj9 - root 5.wav
+Major maj9_ Dmaj9 - root 8.wav
+Major maj9_ Dmaj9 - root.wav
+Major maj9_ Ebmaj9 - root 2.wav
+Major maj9_ Ebmaj9 - root 3.wav
+Major maj9_ Ebmaj9 - root 4.wav
+Major maj9_ Ebmaj9 - root 5.wav
+Major maj9_ Ebmaj9 - root.wav
+Major maj9_ Emaj9 - root 2.wav
+Major maj9_ Emaj9 - root.wav
+Major maj9_ F#maj9 - root 2.wav
+Major maj9_ F#maj9 - root 3.wav
+Major maj9_ F#maj9 - root.wav
+Major maj9_ Fmaj9 - root 3.wav
+Major maj9_ Fmaj9 - root 4.wav
+Major maj9_ Fmaj9 - root 5.wav
+Major maj9_ Fmaj9 - root 7.wav
+Major maj9_ Fmaj9 - root.wav
+Major maj9_ G#maj9 - root 2.wav
+Major maj9_ G#maj9 - root 3.wav
+Major maj9_ G#maj9 - root.wav
+Major maj9_ Gmaj9 (b5 moment) - 1st inversion.wav
+Major maj9_ Gmaj9 - root 10.wav
+Major maj9_ Gmaj9 - root 11.wav
+Major maj9_ Gmaj9 - root 12.wav
+Major maj9_ Gmaj9 - root 13.wav
+Major maj9_ Gmaj9 - root 14.wav
+Major maj9_ Gmaj9 - root 15.wav
+Major maj9_ Gmaj9 - root 16.wav
+Major maj9_ Gmaj9 - root 2.wav
+Major maj9_ Gmaj9 - root 3.wav
+Major maj9_ Gmaj9 - root 4.wav
+Major maj9_ Gmaj9 - root 5.wav
+Major maj9_ Gmaj9 - root 6.wav
+Major maj9_ Gmaj9 - root 7.wav
+Major maj9_ Gmaj9 - root 8.wav
+Major maj9_ Gmaj9 - root 9.wav
+Major maj9_ Gmaj9 - root.wav
+Major maj9b5_ Amaj9b5 - root.wav
+Major minor 7_ BbmM7 - root 2.wav
+Major minor 7_ BbmM7 - root.wav
+Major_ A - root (triad interval only).wav
+Major_ A - root.wav
+Major_ B - root.wav
+Major_ Bb - root.wav
+Major_ C - 1st inversion.wav
+Major_ C - root .wav
+Major_ C - root 2.wav
+Major_ C - root.wav
+Major_ C# - 2nd inversion.wav
+Major_ C# - root - 2.wav
+Major_ C# - root.wav
+Major_ D - 1st inversion.wav
+Major_ D - 2nd inversion.wav
+Major_ D - root 2.wav
+Major_ D - root 3.wav
+Major_ D - root.wav
+Major_ Eb - 2nd inversion.wav
+Major_ Eb - root 2.wav
+Major_ Eb - root.wav
+Major_ F - 2nd inversion.wav
+Major_ F - root 2.wav
+Major_ F - root 3.wav
+Major_ F - root 4.wav
+Major_ F - root.wav
+Major_ F# - 1st inversion.wav
+Major_ F# - root 2.wav
+Major_ F# - root 3.wav
+Major_ F# - root.wav
+Major_ G - 1st inversion.wav
+Major_ G - root 2.wav
+Major_ G - root 3.wav
+Major_ G - root 4.wav
+Major_ G - root 5.wav
+Major_ G - root 6.wav
+Major_ G - root 7.wav
+Major_ G - root 8.wav
+Major_ G - root.wav
+Major_ G# - root 2.wav
+Major_ G# - root 3.wav
+Major_ G# - root.wav
+Minor 11_ Am11 - root 2.wav
+Minor 11_ Am11 - root 3.wav
+Minor 11_ Am11 - root.wav
+Minor 11_ Bm11 - root 2.wav
+Minor 11_ Bm11 - root 3.wav
+Minor 11_ Bm11 - root 4.wav
+Minor 11_ Bm11 - root 5.wav
+Minor 11_ Bm11 - root.wav
+Minor 11_ C#m11 - root.wav
+Minor 11_ Cm11 - root 2.wav
+Minor 11_ Cm11 - root.wav
+Minor 11_ Dm11 - root.wav
+Minor 11_ Ebm11 - root.wav
+Minor 11_ F#m11 - 3rd inversion.wav
+Minor 11_ F#m11 - root 2.wav
+Minor 11_ G#m11 - root.wav
+Minor 13_ Em13 - root.wav
+Minor 6#5_ Bbm6#5 - root.wav
+Minor 6_ Bm6 - 1st inversion.wav
+Minor 6_ Dm6 - root.wav
+Minor 6_ Fm6 - root.wav
+Minor 6_ G#m6 - root.wav
+Minor 6_ Gm6 - root.wav
+Minor 7 (4)_ Gm7 - root 4.wav
+Minor 7(#5)_ Gm7(#5) - root.wav
+Minor 7_ Am7 - 3rd inversion 2.wav
+Minor 7_ Am7 - 3rd inversion.wav
+Minor 7_ Am7 - root 10.wav
+Minor 7_ Am7 - root 12.wav
+Minor 7_ Am7 - root 13.wav
+Minor 7_ Am7 - root 2.wav
+Minor 7_ Am7 - root 3.wav
+Minor 7_ Am7 - root 4.wav
+Minor 7_ Am7 - root 5.wav
+Minor 7_ Am7 - root 6.wav
+Minor 7_ Am7 - root 7.wav
+Minor 7_ Am7 - root 8.wav
+Minor 7_ Am7 - root 9.wav
+Minor 7_ Am7 - root.wav
+Minor 7_ Bbm7 - root 2.wav
+Minor 7_ Bbm7 - root 3.wav
+Minor 7_ Bbm7 - root 4.wav
+Minor 7_ Bbm7 - root 5.wav
+Minor 7_ Bbm7 - root.wav
+Minor 7_ Bm7 - 3rd inversion 2.wav
+Minor 7_ Bm7 - 3rd inversion 3.wav
+Minor 7_ Bm7 - 3rd inversion.wav
+Minor 7_ Bm7 - root 10.wav
+Minor 7_ Bm7 - root 11.wav
+Minor 7_ Bm7 - root 12.wav
+Minor 7_ Bm7 - root 13.wav
+Minor 7_ Bm7 - root 2.wav
+Minor 7_ Bm7 - root 3.wav
+Minor 7_ Bm7 - root 4.wav
+Minor 7_ Bm7 - root 5.wav
+Minor 7_ Bm7 - root 6.wav
+Minor 7_ Bm7 - root 7.wav
+Minor 7_ Bm7 - root 8.wav
+Minor 7_ Bm7 - root 9.wav
+Minor 7_ Bm7 - root.wav
+Minor 7_ C#m7 - root.wav
+Minor 7_ Cm7 - 2nd inversion.wav
+Minor 7_ Cm7 - root 10.wav
+Minor 7_ Cm7 - root 2.wav
+Minor 7_ Cm7 - root 3.wav
+Minor 7_ Cm7 - root 4.wav
+Minor 7_ Cm7 - root 5.wav
+Minor 7_ Cm7 - root 6.wav
+Minor 7_ Cm7 - root 7.wav
+Minor 7_ Cm7 - root 8.wav
+Minor 7_ Cm7 - root 9.wav
+Minor 7_ Cm7 - root.wav
+Minor 7_ Dm7 - 2nd inversion.wav
+Minor 7_ Dm7 - 3rd inversion.wav
+Minor 7_ Dm7 - root 2.wav
+Minor 7_ Dm7 - root 3.wav
+Minor 7_ Dm7 - root 4.wav
+Minor 7_ Dm7 - root 5.wav
+Minor 7_ Dm7 - root.wav
+Minor 7_ Ebm7 - 2nd inversion.wav
+Minor 7_ Ebm7 - 3rd inversion.wav
+Minor 7_ Ebm7 - root 2.wav
+Minor 7_ Ebm7 - root 3.wav
+Minor 7_ Ebm7 - root 5.wav
+Minor 7_ Ebm7 - root 7.wav
+Minor 7_ Ebm7 - root.wav
+Minor 7_ Em7 - 2nd inversion.wav
+Minor 7_ Em7 - root 2.wav
+Minor 7_ Em7 - root 3.wav
+Minor 7_ Em7 - root 4.wav
+Minor 7_ Em7 - root 5.wav
+Minor 7_ Em7 - root 6.wav
+Minor 7_ Em7 - root.wav
+Minor 7_ F#m7 - 2nd inversion.wav
+Minor 7_ F#m7 - root 2.wav
+Minor 7_ F#m7 - root 3.wav
+Minor 7_ F#m7 - root 4.wav
+Minor 7_ F#m7 - root 5.wav
+Minor 7_ F#m7 - root 6.wav
+Minor 7_ F#m7 - root 7.wav
+Minor 7_ F#m7 - root 8.wav
+Minor 7_ F#m7 - root.wav
+Minor 7_ Fm7 - root 10.wav
+Minor 7_ Fm7 - root 2.wav
+Minor 7_ Fm7 - root 3.wav
+Minor 7_ Fm7 - root 4.wav
+Minor 7_ Fm7 - root 5.wav
+Minor 7_ Fm7 - root 6.wav
+Minor 7_ Fm7 - root 7.wav
+Minor 7_ Fm7 - root 8.wav
+Minor 7_ Fm7 - root 9.wav
+Minor 7_ Fm7 - root.wav
+Minor 7_ G#m7 (+b13) - root 2.wav
+Minor 7_ G#m7 (+b13) - root.wav
+Minor 7_ G#m7 - root 2.wav
+Minor 7_ G#m7 - root 3.wav
+Minor 7_ G#m7 - root.wav
+Minor 7_ Gm7 - 2nd inversion.wav
+Minor 7_ Gm7 - 3rd inversion.wav
+Minor 7_ Gm7 - root 3.wav
+Minor 7_ Gm7 - root 4.wav
+Minor 7_ Gm7 - root 6.wav
+Minor 7_ Gm7 - root 7.wav
+Minor 7_ Gm7 - root.wav
+Minor 7_ Gm7_D - 2nd inversion.wav
+Minor 7_ Gm7_F - 3rd inversion.wav
+Minor 7b59_ Bm7b59 - root.wav
+Minor 7b5_ Bm7b5 - root 2.wav
+Minor 7b5_ Bm7b5 - root 3.wav
+Minor 7b5_ Bm7b5 - root.wav
+Minor 7b5_ C#m7b5 - root.wav
+Minor 7b5_ Cm7b5 - 2nd inversion.wav
+Minor 7b5_ Dm7b5 - root 2.wav
+Minor 7b5_ Dm7b5 - root.wav
+Minor 7b5_ Em7b5 - 3rd inversion 2.wav
+Minor 7b5_ Em7b5 - 3rd inversion.wav
+Minor 7b5_ Em7b5 - root.wav
+Minor 7b5_ F#m7b5 - 3rd inversion.wav
+Minor 7b5_ F#m7b5 - root 3.wav
+Minor 7b5_ F#m7b5 - root.wav
+Minor 7b5_ Fm7b5 - root.wav
+Minor 7b5_ G#m7b5 - root.wav
+Minor 7b5_ Gm7b5 - 1st inversion.wav
+Minor 7b9_ C#m7b9 - root.wav
+Minor 7b9b5_ Em7b9b5 - root.wav
+Minor 9_ Am9 - root 10.wav
+Minor 9_ Am9 - root 11.wav
+Minor 9_ Am9 - root 12.wav
+Minor 9_ Am9 - root 13.wav
+Minor 9_ Am9 - root 15.wav
+Minor 9_ Am9 - root 2.wav
+Minor 9_ Am9 - root 3.wav
+Minor 9_ Am9 - root 4.wav
+Minor 9_ Am9 - root 5.wav
+Minor 9_ Am9 - root 6.wav
+Minor 9_ Am9 - root 7.wav
+Minor 9_ Am9 - root 8.wav
+Minor 9_ Am9 - root 9.wav
+Minor 9_ Am9 - root.wav
+Minor 9_ Bbm9 - root 2.wav
+Minor 9_ Bbm9 - root 3.wav
+Minor 9_ Bbm9 - root 4.wav
+Minor 9_ Bbm9 - root 5.wav
+Minor 9_ Bbm9 - root.wav
+Minor 9_ Bm9 - root .wav
+Minor 9_ Bm9 - root 2.wav
+Minor 9_ Bm9 - root 3.wav
+Minor 9_ Bm9 - root 4.wav
+Minor 9_ Bm9 - root 5.wav
+Minor 9_ Bm9 - root 6.wav
+Minor 9_ Bm9 - root 7.wav
+Minor 9_ Bm9 - root 8.wav
+Minor 9_ C#m9 - root 2.wav
+Minor 9_ C#m9 - root 3.wav
+Minor 9_ C#m9 - root.wav
+Minor 9_ Cm9 - root 2.wav
+Minor 9_ Cm9 - root 3.wav
+Minor 9_ Cm9 - root 4.wav
+Minor 9_ Cm9 - root 5.wav
+Minor 9_ Cm9 - root.wav
+Minor 9_ Dm9 - 3rd inversion.wav
+Minor 9_ Dm9 - root 2.wav
+Minor 9_ Dm9 - root 3.wav
+Minor 9_ Dm9 - root 4.wav
+Minor 9_ Dm9 - root 5.wav
+Minor 9_ Dm9 - root 6.wav
+Minor 9_ Dm9 - root 7.wav
+Minor 9_ Dm9 - root 8.wav
+Minor 9_ Dm9 - root 9.wav
+Minor 9_ Dm9 - root.wav
+Minor 9_ Ebm9 - root 2.wav
+Minor 9_ Ebm9 - root 3.wav
+Minor 9_ Ebm9 - root 4.wav
+Minor 9_ Ebm9 - root.wav
+Minor 9_ Em9 - root 3.wav
+Minor 9_ Em9 - root 6.wav
+Minor 9_ Em9 - root 7.wav
+Minor 9_ Em9 - root 9.wav
+Minor 9_ Em9 - root.wav
+Minor 9_ F#m9 - 3rd inversion.wav
+Minor 9_ F#m9 - root 2.wav
+Minor 9_ F#m9 - root 3.wav
+Minor 9_ F#m9 - root 4.wav
+Minor 9_ F#m9 - root 5.wav
+Minor 9_ F#m9 - root 6.wav
+Minor 9_ F#m9 - root 7.wav
+Minor 9_ F#m9 - root.wav
+Minor 9_ Fm9 - root 2.wav
+Minor 9_ Fm9 - root 3.wav
+Minor 9_ Fm9 - root 4.wav
+Minor 9_ Fm9 - root 5.wav
+Minor 9_ Fm9 - root 6.wav
+Minor 9_ Fm9 - root 7.wav
+Minor 9_ Fm9 - root 8.wav
+Minor 9_ Fm9 - root 9.wav
+Minor 9_ Fm9 - root.wav
+Minor 9_ G#m9 - root 11.wav
+Minor 9_ G#m9 - root 2.wav
+Minor 9_ G#m9 - root 3.wav
+Minor 9_ G#m9 - root 4.wav
+Minor 9_ G#m9 - root 5.wav
+Minor 9_ G#m9 - root.wav
+Minor 9_ Gm9 - 3rd inversion.wav
+Minor 9_ Gm9 - root 2.wav
+Minor 9_ Gm9 - root 3.wav
+Minor 9_ Gm9 - root 4.wav
+Minor 9_ Gm9 - root 5.wav
+Minor 9_ Gm9 - root 8.wav
+Minor 9_ Gm9 - root.wav
+Minor 9b5_ Em9b5 - root.wav
+Minor add(2) add(4)_ Cm add(2) add(4) - root.wav
+Minor add(4) add(2)_ Am add(4) add (2) - root.wav
+Minor add(4) add(2)_ Dm add(4) add(2) - root.wav
+Minor add(b5)_ Dm add(b5) - 3rd inversion.wav
+Minor add(m2) add(4)_ A#m add(m2) add(4) - root.wav
+Minor add9_ Am add9 - root.wav
+Minor add9_ Bbm add9 - root 2.wav
+Minor add9_ Bbm add9 - root.wav
+Minor add9_ Bm add9 - root.wav
+Minor add9_ Cm add9 - root 2.wav
+Minor add9_ Cm add9 - root.wav
+Minor add9_ Dm add9 - root 2.wav
+Minor add9_ Dm add9 - root.wav
+Minor add9_ Em add9 - root.wav
+Minor add9_ Fm add9 - root.wav
+Minor maj7#5_ Bbm maj7#5 - root.wav
+Minor maj9_ F#m maj9 - root.wav
+Minor maj9_ Gm maj9 - root.wav
+Minor7b5 add4_ Am7b5 add4 - root.wav
+Minor7b5_ Em7b5 - 3rd inversion.wav
+Minor_ Am - root 2.wav
+Minor_ Am - root 3.wav
+Minor_ Am - root 4.wav
+Minor_ Am - root.wav
+Minor_ Bbm - root.wav
+Minor_ Bm - 2nd inversion.wav
+Minor_ Bm - root 2.wav
+Minor_ Bm - root 3.wav
+Minor_ Bm - root 4.wav
+Minor_ Bm - root 5.wav
+Minor_ Bm - root.wav
+Minor_ Cm - root.wav
+Minor_ Dm - 2nd inversion 2.wav
+Minor_ Dm - 2nd inversion.wav
+Minor_ Dm - root 2.wav
+Minor_ Dm - root 3.wav
+Minor_ Dm - root 4.wav
+Minor_ Ebm - 1st inversion.wav
+Minor_ Em - root 2.wav
+Minor_ Em - root.wav
+Minor_ F#m - 1nd inversion.wav
+Minor_ F#m - root 2.wav
+Minor_ F#m - root 3.wav
+Minor_ F#m - root 4.wav
+Minor_ F#m - root.wav
+Minor_ Fm - root.wav
+Minor_ Gm - 1st inversion.wav
+Minor_ Gm - 2nd inversion.wav
+Sus2_ C#sus2 - root.wav
+Sus2_ Ebsus2 - root.wav
+Sus2_ Fsus2 - root.wav
+Sus4 to major_ Dsus2 to D major - root.wav
+Sus4_ Ebsus4 - root.wav
+Sus4_ F#sus4 - root.wav
+V-I_ F#m7 - Bm.wav
+filenames.txt
+sus2sus4_ G#sus2sus4 - root.wav
+sus4b5_ Asus4b5 - root.wav

@@ -1,0 +1,22 @@
+# Build directories
+Builds/
+build/
+cmake-build-*/
+
+# User-specific files
+*.user
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.xcuserstate
+
+# JUCE generated
+JuceLibraryCode/
+
+# Python cache
+__pycache__/
+*.pyc
+node_modules

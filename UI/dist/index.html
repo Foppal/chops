@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chops Browser UI</title>
+
+    <!--
+      1) The <base> tag forces relative URLs (like "chops-ui.XXX.js")
+         to resolve against the /Users/grulf/.../UI/dist/ folder.
+      2) Make sure these two <script> filenames exactly match what
+         “npm run build” emitted (check your dist/ folder).
+    -->
+    <base href="file:///Users/grulf/PROGRAMERING/ChopsBrowser/UI/dist/" />
+    <script defer src="chops-ui.541a287fd0177b554cab.js"></script>
+    <script defer src="chops-ui.304192ed9428c81e0aa2.js"></script>
+
+    <style>
+      /* Reset margins and dark background so it looks “native.” */
+      body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+        color: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        overflow: hidden;
+      }
+      /* Make React’s root div fill the plugin window */
+      #root {
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--
+      React will immediately mount into #root (replacing this empty div).
+      No inline “mock” scripts or arrow functions here—otherwise JUCE’s
+      WebKit will choke on ES6 syntax and throw “Unexpected token ':'.”
+    -->
+    <div id="root"></div>
+  </body>
+</html>
