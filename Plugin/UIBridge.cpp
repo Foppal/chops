@@ -858,61 +858,45 @@ void UIBridge::sendSampleResults(const std::vector<ChopsDatabase::SampleInfo>& s
     }
     
     juce::var data = sampleArrayToVar(samples);
+    
+    // --- START OF FIX ---
+    // 1. Convert to a JSON string.
+    juce::String jsonString = juce::JSON::toString(data, true);
+
+    // 2. Escape the string to make it safe for JavaScript.
+    jsonString.replace("\\", "\\\\");
+    jsonString.replace("'", "\\'"); // Escape single quotes
+    jsonString.replace("\n", "\\n");
+    jsonString.replace("\r", "\\r");
+
+    // 3. Build the robust script.
     juce::String script = 
         "console.log('📦 C++ sending ' + " + juce::String(samples.size()) + " + ' samples to React'); "
         "try { "
-        "    const samplesData = " + juce::JSON::toString(data) + "; "
+        "    const samplesData = JSON.parse('" + jsonString + "'); " // <-- Use JSON.parse with the safe string
         "    console.log('📦 Sample data prepared:', samplesData.length, 'items'); "
-        "    "
-        "    // Try multiple callback methods to ensure delivery "
         "    let delivered = false; "
-        "    "
-        "    // Method 1: Direct callback (new system) "
         "    if (window.ChopsBridge && window.ChopsBridge.callbacks && window.ChopsBridge.callbacks.onSampleResults) { "
         "        console.log('✅ Using Method 1: Direct callback'); "
         "        window.ChopsBridge.callbacks.onSampleResults(samplesData); "
         "        delivered = true; "
         "    } "
-        "    "
-        "    // Method 2: React app callbacks "
         "    if (window.reactAppCallbacks && window.reactAppCallbacks.onSampleResults) { "
         "        console.log('✅ Using Method 2: React app callbacks'); "
         "        window.reactAppCallbacks.onSampleResults(samplesData); "
         "        delivered = true; "
         "    } "
-        "    "
-        "    // Method 3: Legacy callbacks "
-        "    if (window.reactCallbacks && window.reactCallbacks.onSampleResults) { "
-        "        console.log('✅ Using Method 3: Legacy callbacks'); "
-        "        window.reactCallbacks.onSampleResults(samplesData); "
-        "        delivered = true; "
-        "    } "
-        "    "
-        "    // Method 4: Global function fallback "
-        "    if (typeof window.onSampleResults === 'function') { "
-        "        console.log('✅ Using Method 4: Global function'); "
-        "        window.onSampleResults(samplesData); "
-        "        delivered = true; "
-        "    } "
-        "    "
         "    if (!delivered) { "
         "        console.error('❌ No sample result callbacks found!'); "
-        "        console.log('Available objects:'); "
-        "        console.log('  - ChopsBridge:', !!window.ChopsBridge); "
-        "        console.log('  - ChopsBridge.callbacks:', !!window.ChopsBridge?.callbacks); "
-        "        console.log('  - reactAppCallbacks:', !!window.reactAppCallbacks); "
-        "        console.log('  - reactCallbacks:', !!window.reactCallbacks); "
-        "        "
-        "        // Store data for later retrieval "
         "        window.pendingSampleResults = samplesData; "
-        "        console.log('📦 Stored samples for later retrieval'); "
         "    } else { "
-        "        console.log('✅ Sample results delivered successfully via multiple methods'); "
+        "        console.log('✅ Sample results delivered successfully'); "
         "    } "
         "} catch (error) { "
         "    console.error('❌ Error delivering sample results:', error); "
-        "    window.pendingSampleResults = " + juce::JSON::toString(data) + "; "
+        "    console.log('Problematic JSON string was:', '" + jsonString + "'); "
         "}";
+    // --- END OF FIX ---
     
     executeJavaScriptWhenReady(script);
     
@@ -1008,41 +992,46 @@ void UIBridge::sendPreviewState(bool isPlaying, float progress)
 void UIBridge::sendDatabaseStats(const ChopsDatabase::Statistics& stats)
 {
     juce::var data = statsToVar(stats);
+    
+    // --- START OF FIX ---
+    juce::String jsonString = juce::JSON::toString(data, true);
+    jsonString.replace("\\", "\\\\");
+    jsonString.replace("'", "\\'");
+    jsonString.replace("\n", "\\n");
+    jsonString.replace("\r", "\\r");
+
     juce::String script = 
-        "console.log('📊 C++ sending database stats:', " + juce::JSON::toString(data) + "); "
+        "console.log('📊 C++ sending database stats...'); "
         "try { "
-        "    const statsData = " + juce::JSON::toString(data) + "; "
+        "    const statsData = JSON.parse('" + jsonString + "'); "
         "    let delivered = false; "
-        "    "
-        "    // Try multiple callback methods "
         "    if (window.ChopsBridge && window.ChopsBridge.callbacks && window.ChopsBridge.callbacks.onDatabaseStats) { "
         "        window.ChopsBridge.callbacks.onDatabaseStats(statsData); "
         "        delivered = true; "
         "    } "
-        "    if (window.reactAppCallbacks && window.reactAppCallbacks.onDatabaseStats) { "
-        "        window.reactAppCallbacks.onDatabaseStats(statsData); "
-        "        delivered = true; "
-        "    } "
-        "    if (window.reactCallbacks && window.reactCallbacks.onDatabaseStats) { "
-        "        window.reactCallbacks.onDatabaseStats(statsData); "
-        "        delivered = true; "
-        "    } "
-        "    "
         "    if (!delivered) { "
         "        console.warn('⚠️ No database stats callbacks found'); "
         "    } "
         "} catch (error) { "
         "    console.error('❌ Error sending database stats:', error); "
         "}";
+    // --- END OF FIX ---
+    
     executeJavaScriptWhenReady(script);
 }
 
 void UIBridge::sendLibraryPath(const juce::String& path)
 {
-    juce::var data = juce::var(path);
+    // --- START OF FIX ---
+    // No need for full JSON, but the path itself must be escaped.
+    juce::String safePath = path;
+    safePath.replace("\\", "\\\\");
+    safePath.replace("'", "\\'");
+
     juce::String script = "if (window.ChopsBridge && window.ChopsBridge.callbacks.onLibraryPath) { "
-                         "window.ChopsBridge.callbacks.onLibraryPath(" + 
-                         juce::JSON::toString(data) + "); }";
+                         "window.ChopsBridge.callbacks.onLibraryPath('" + safePath + "'); }";
+    // --- END OF FIX ---
+
     executeJavaScriptWhenReady(script);
 }
 
